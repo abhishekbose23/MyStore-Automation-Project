@@ -20,7 +20,7 @@ public class homePage {
 	}
 	//Identify webelement which you want to interact
 	
-	@FindBy(linkText = " Signup / Login")
+	@FindBy(xpath = "//a[.=' Signup / Login']")
 	WebElement SignUp;
 	
 	// Identify action to be performed on webelement

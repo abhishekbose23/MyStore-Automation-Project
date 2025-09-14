@@ -57,10 +57,11 @@ public void setup() {
 	//for logging
 	logger = LogManager.getLogger("MyStore");
 }
+
 @AfterClass
 public void tearDown() {
-	if (driver != null) {
+	
 	driver.quit();
-	}
+	
 }
 }

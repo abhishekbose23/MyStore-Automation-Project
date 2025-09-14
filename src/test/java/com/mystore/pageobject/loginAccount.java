@@ -20,10 +20,10 @@ public class loginAccount {
 	@FindBy(name = "name")
 	WebElement enterName;
 	
-	@FindBy(name = "email")
+	@FindBy(xpath= "//input[@data-qa='signup-email']")
 	WebElement enterEmail;
 	
-	@FindBy(name = "Signup")
+	@FindBy(xpath = "//button[.='Signup']")
 	WebElement btnSignup;
 	
 	public void name (String Name) {

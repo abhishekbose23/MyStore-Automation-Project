@@ -14,7 +14,7 @@ public class userSignUp {
 	//create constructor
 	public userSignUp(WebDriver rwebdriver) {
 		
-		rwebdriver = lwebdriver;
+		lwebdriver = rwebdriver;
 		
 		PageFactory.initElements(rwebdriver, this);
 		
@@ -22,8 +22,8 @@ public class userSignUp {
 	
 	//Identify webelement which you want to interact
 	
-	@FindBy(xpath = "//input[@id='id_gender1']")  // Title Mr
-	WebElement selectTitleMr;
+	@FindBy(xpath = "//input[@value='Mrs']")  // Title Mrs
+	WebElement selectTitleMrs;
 	
   @FindBy(xpath ="//input[@id='password']")
   WebElement enterUserPassword;
@@ -75,7 +75,7 @@ WebElement clickOnCreateAccount ;
 //Identify action to be performed on webelement
 
 public void title () {
-	selectTitleMr.click();
+	selectTitleMrs.click();
 }
 
 public void userPassword(String pass) {
@@ -95,7 +95,7 @@ public void userMonthOfBirth (String month) {
 public void userYearOfBirth (int year) {
 	
 	Select obj3 = new Select(selectYearOfBirth);
-obj3.selectByIndex(year);	
+obj3.selectByVisibleText(String.valueOf(year));	
 }
 public void newsLetterCheckBox () {
 	selectNewsLetterCheckBox.click();
@@ -114,7 +114,7 @@ public void userAddress (String add) {
 }
 public void userCountry (String country) {
 	Select obj4 = new Select(selectCountry);
-	obj4.selectByContainsVisibleText(country);
+	obj4.selectByVisibleText(country);
 }
 public void userState (String state) {
 	enterState.sendKeys(state);

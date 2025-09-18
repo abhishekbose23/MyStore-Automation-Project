@@ -1,5 +1,8 @@
-[INFO ] 2025-09-17 21:39:24.580 [main] MyStore - Url Opened
-[INFO ] 2025-09-17 21:39:27.713 [main] MyStore - click on SignUp
-[INFO ] 2025-09-17 21:39:28.015 [main] MyStore - Enter Name
-[INFO ] 2025-09-17 21:39:28.189 [main] MyStore - Enter email
-[INFO ] 2025-09-17 21:39:29.594 [main] MyStore - Click on SignUp Button
+[INFO ] 2025-09-19 05:05:40.519 [main] MyStore - Url Opened
+[INFO ] 2025-09-19 05:05:43.447 [main] MyStore - click on SignUp
+[INFO ] 2025-09-19 05:05:43.656 [main] MyStore - Enter Name
+[INFO ] 2025-09-19 05:05:43.795 [main] MyStore - Enter email
+[INFO ] 2025-09-19 05:05:44.677 [main] MyStore - Click on SignUp Button
+[INFO ] 2025-09-19 05:05:47.418 [main] MyStore - Entered user details on signup page
+[INFO ] 2025-09-19 05:05:49.493 [main] MyStore - Clicked on CreateAccountBtn
+[INFO ] 2025-09-19 05:05:49.541 [main] MyStore - Account Creation Verified
